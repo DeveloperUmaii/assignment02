@@ -1,0 +1,186 @@
+body{margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+
+}
+
+.tourist-title{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+nav > div > img{
+    width: 48px; ;
+    height: 56.008px;
+}
+/* nav>div>h1{
+
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+} */
+nav>div>h1{
+ font-weight: 800;
+font-size: 36px;
+line-height:0px;
+word-spacing:5px;
+text-align: center;
+
+}
+span{
+    color: #ff5400;
+}
+
+ul{
+    display:flex ;
+    }
+   li{
+        list-style: none;
+        margin-left: 40px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: normal;
+        
+    }
+    li>a{
+        text-decoration :none;
+        color: var(--Dark-02, #424247);
+    }
+    #home{
+        color: #FF5400;
+    }
+
+    /* .header-img{
+        display:flex ;
+        justify-content: center;
+       align-items: center;
+       border: solid rebeccapurple 10px;
+       */
+       
+    }
+    #lorem-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .header-bg{
+            display: flex;
+            justify-content: center;
+            border: solid red;
+            
+        }
+        .header-bg-img{background-image: url("./B9A2-Hero-Travel-main/Images/Head\ 01.png");
+            color: #ffffff;
+           
+            width: 1170px;
+            height: 500px;
+            border-radius: 16px;
+            /* background-image: linear-gradient(rgba(247, 5, 5, 0.1),rgba(0,0,0,.01)); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        
+           .head-bg-img-title{
+                color: #FFF;
+                font-family: Mulish;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 0px;
+           }
+           
+           .head-bg-img-paragrph{
+            width: 540px;
+            color: #FFF;
+            text-align: center;
+            font-family: Mulish;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */
+           }
+           .header-btn-bg{border-radius: 8px;
+            background: rgba(255, 255, 255, 0.30);
+            /* border: solid black; */
+            width:  750px;
+            height:  70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: space-evenly;
+            }
+           
+           /* .headr-buttn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 35px;
+            flex-shrink: 0;
+            border-radius: 8px;
+        width: px; */
+           }
+.boom{
+    border: solid rgb(255, 0, 0);
+    padding-right: 00px;
+}
+input{
+    width: 100px;
+    height:none;
+    outline: none;
+    border: none;
+    border-radius:1px;
+    
+    /* padding-left: 10px; */
+    
+}
+ .headr-buttn{
+            display: flex;
+            background: #ffffff;
+            justify-content:space-between;
+            align-items: center;
+            width: 100px;
+            height: 35px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            padding-right: 50px;
+            padding-left: 10px;
+            cursor: pointer;
+
+ }          
+ /* .headr-search-buttn{
+            display: flex;
+            background: #ffffff;
+            justify-content:space-between;
+            align-items: center;
+            width: 100px;
+            height: 35px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            padding-right: 50px;
+            padding-left: 10px;
+
+ }*/
+
+ #headr-search-buttn{
+    background: #FF5400;
+
+    
+ }
+ #findd{
+    background: #FF5400;
+ }
