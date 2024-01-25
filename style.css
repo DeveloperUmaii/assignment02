@@ -1,4 +1,4 @@
-body{margin-top: 50px;
+body{margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
 
@@ -7,7 +7,8 @@ nav{
     display: flex;
     justify-content: space-between;
     
-    
+   align-items: center;
+   
 
 
 }
@@ -64,10 +65,8 @@ ul{
         display:flex ;
         justify-content: center;
        align-items: center;
-       border: solid rebeccapurple 10px;
-       */
-       
-    }
+       border: solid rebeccapurple 10px;} */
+
     #lorem-text{
         display: flex;
         justify-content: center;
@@ -100,7 +99,6 @@ ul{
         
            .head-bg-img-title{
                 color: #FFF;
-                font-family: Mulish;
                 font-size: 64px;
                 font-style: normal;
                 font-weight: 800;
@@ -128,20 +126,10 @@ ul{
             justify-content: space-evenly;
             }
            
-           /* .headr-buttn{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 150px;
-            height: 35px;
-            flex-shrink: 0;
-            border-radius: 8px;
-        width: px; */
-           }
-.boom{
+          
+/* .boom{
     border: solid rgb(255, 0, 0);
-    padding-right: 00px;
-}
+    padding-right: 00px;} */
 input{
     width: 100px;
     height:none;
@@ -293,7 +281,7 @@ text-align: center;
 
  }
  
- {}
+ 
 
  .locat-img{
           
@@ -333,6 +321,18 @@ justify-content: center;
 align-items: center;
 margin: 30px;
  }
+ .why-chs > h1{
+   color: #131318;
+   font-size: 40px;
+   font-weight: 800;
+   line-height: 0px;
+ }
+
+.whyy-chhs-pra{
+   width: 643px;font-weight: 400;line-height: 26px;font-size: 16px;color: rgba(19, 19, 24, 0.70); 
+}
+
+
  .service-card{
 display: flex;
 align-items: flex-start;
@@ -362,6 +362,21 @@ justify-content: space-evenly;
     padding-bottom: 10px;
    
  }
+
+.price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 573px;
+    height: 284px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+   
+ }
+
  .srvc-crd-ttl{
     color: #131318;
     text-align: left;
@@ -382,27 +397,26 @@ justify-content: space-evenly;
     height: 78px;
  }
 
- .price{
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-    margin: 10px;
-    margin-top: 25px;
-    width: 573px;
-    height: 284px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-   
- }
+ 
 
  .subscrb-inpt-div{
    display: flex;
    align-items: center;
    justify-content: space-between;
    margin: 40px 0px;
+   gap: 30px;
  }
 
+.subcrb-sectn{
+   border-radius: 16px;
+    border: 1px solid #FF5400;width: 600px;
+    height: 422px;
+    display: flex;flex-direction: column; align-items:center;
+    flex-shrink: 0;
+}
+
  #Newsletter{
+   width: 105px;
    color: #131318;
 font-family: Mulish;
 font-size: 20px;
@@ -465,7 +479,7 @@ margin-bottom: 0px;
    justify-content: center;
    text-align: center;
    flex-direction: column;
-   margin: 265px  0px 0px 383px;
+   margin: 265px  0px 0px 328px;
  }
  
  .stckr > p{
@@ -485,7 +499,7 @@ line-height: 10px;
    justify-content: center;
  }
  .fotr-dv{
-   width: 1440px;
+   width: 1348px;
    height: 502px;
    flex-shrink: 0;
    background: rgba(19, 19, 24, 0.05);
@@ -506,6 +520,10 @@ line-height: 10px;
    line-height: 26px;
 }
 
+.line{
+   width: 872px; margin: 20px 0px;
+    height: 1px;background: rgba(19, 19, 24, 0.10);
+}
  .copy-right{
    color: #131318;
    font-family: Inter;
@@ -514,3 +532,5 @@ line-height: 10px;
    font-weight: 300;
    line-height: normal;
  }
+
+ 

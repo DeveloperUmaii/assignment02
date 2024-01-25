@@ -1,0 +1,134 @@
+@media screen and (max-width: 676px){
+
+
+
+nav{
+flex-direction: row;}
+
+   ul{
+    display: none;
+   }
+   body{
+    display: block;
+   }
+.head-bg-img-title{
+    width: 330px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.head-bg-img-paragrph{
+    width: 350px;
+    font-size: 15px;
+    font: 500;
+}
+
+.header-btn-bg{
+    display: flex;
+    height:190px;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    display: block;
+}
+.headr-buttn{
+    align-items: center;
+    width: 200px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding-right: 50px;
+    padding-left: 15px;
+    cursor: pointer;
+    margin-bottom: 14px;
+    margin-left: 10px;
+}
+
+.popular-tours{
+    flex-direction:column ;
+}
+.Choose-destination{
+    flex-direction: column;
+}
+.first-row{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-row{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.third-row{
+    flex-direction: column;
+    justify-content: center;
+}
+.why-chs > h1{
+    font-size: 25px;
+}
+
+.why-chs>p{
+    /* border: solid red; */
+    width: 250px; 
+}
+
+.service-card{
+    flex-direction: column;
+    justify-content: center;
+}
+.price-dv{
+    flex-direction: column;
+    justify-content: center;
+}
+.hotel{margin: 10px;
+    margin-left: 0px;}
+.servc{margin: 10px;
+    margin-left: 0px;}
+.price{margin: 10px;
+    margin-left: 0px;}
+
+.subscrb-inpt-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.subcrb-sectn{
+    width: 570px;
+    height: 422px;
+    margin-left: 50px;
+}
+.stckr{
+    margin: 265px  0px 0px 384px;
+}
+
+
+.fotr-dv{
+width: 690px;
+height: 335px;
+}
+.line{
+    width: 300px;
+}
+.fotr-dv >p{
+    width: 400px;
+}
+  }
+
+
+
+
+
+
+
+  @media screen and (min-width: 677px){
+    #pop{
+        display: none;
+    }
+  }
+
