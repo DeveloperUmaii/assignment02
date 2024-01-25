@@ -371,3 +371,59 @@ justify-content: space-evenly;
     padding-bottom: 10px;
    
  }
+
+ .subscrb-inpt-div{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ #Newsletter{
+   color: #131318;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 0px;
+margin-right: 292px;
+margin-bottom: 20px;
+margin-top: 85px;
+
+ }
+
+ #subs-para{
+   margin-right: 35px;
+width: 350px;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 162.5% */
+ }
+
+ .subcrb-sectn > input{
+   margin-bottom: 14px;
+   padding-left: 17px;
+   width: 373px;
+   height: 52px;
+   flex-shrink: 0;
+   border-radius: 8px;
+   background: rgba(19, 19, 24, 0.05);
+   color: rgba(19, 19, 24, 0.30);
+   font-size: 14px;
+   font-weight: 400;
+ }
+
+
+ .subcrb-sectn > button{
+   width: 393px;
+   height: 52px;
+   flex-shrink: 0;
+   border-radius: 8px;
+   background: #FF5400;
+   font-size: 18px;
+   font-weight: 800;
+   color: #FFF;
+   border: none;
+ }
