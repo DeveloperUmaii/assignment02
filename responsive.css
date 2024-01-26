@@ -54,6 +54,11 @@ flex-direction: row;}
 .Choose-destination{
     flex-direction: column;
 }
+
+#bandr-ban{
+    width: 500px;
+}
+
 .first-row{
     flex-direction: column;
     justify-content: center;
@@ -86,11 +91,18 @@ flex-direction: row;}
     justify-content: center;
 }
 .hotel{margin: 10px;
-    margin-left: 0px;}
+    margin-left: 0px;
+    width: 500px;
+}
+   
 .servc{margin: 10px;
-    margin-left: 0px;}
+    margin-left: 0px;
+    width: 500px;
+}
 .price{margin: 10px;
-    margin-left: 0px;}
+    margin-left: 0px;
+    width: 500px;
+}
 
 .subscrb-inpt-div{
     display: flex;

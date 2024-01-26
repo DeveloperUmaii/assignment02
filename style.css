@@ -280,7 +280,11 @@ line-height: 30px;
 text-align: center;
 
  }
- 
+ #bandr-ban{
+   border-radius: 16px;
+   width: 673px;
+   height: 300px;
+ }
  
 
  .locat-img{
